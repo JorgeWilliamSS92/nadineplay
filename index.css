@@ -1,0 +1,36 @@
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+
+  & body {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+
+  & h1 {
+    font-size: 6rem;
+    color: white;
+  }
+
+  & img {
+    width: 50rem;
+  }
+
+  & .linkss {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    font-size: 2rem;
+    margin-top: 1rem;
+    color: white;
+  }
+
+  & p {
+    font-size: 2rem;
+    margin-top: -2rem;
+    color: white;
+  }
+}
